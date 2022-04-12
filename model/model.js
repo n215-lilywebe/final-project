@@ -9,11 +9,11 @@ export function modelPageName(pgName) {
     // $("#app").html(eval(pgName));
 
     if (pgName == "homeContent") {
-        $("nav a, nav span").removeClass("pinktext").addClass("whitetext");
+        $("nav a, .logo").removeClass("other").addClass("home");
 
     }
     else {
-        $("nav a, nav span").removeClass("whitetext").addClass("pinktext");
+        $("nav a, .logo").removeClass("home").addClass("other");
 
     }
 

@@ -1,0 +1,72 @@
+nav {
+    max-width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+    background-color: yellow;
+
+    span {
+        color: #EE4367;
+        margin: 0 20px;
+    }
+
+    .logo {
+        max-width: 10%;
+        height: 53%;
+
+        .home {
+            color: white;
+        }
+
+        .other {
+            color: black;
+        }
+
+
+
+    }
+
+    .links {
+        max-width: 85%;
+
+        .home {
+            color: white;
+        }
+
+        .other {
+            color: black;
+        }
+
+        a {
+            font-size: 15px;
+
+            text-decoration: none;
+            font-family: GillSansUB;
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    nav {
+        max-width: 90%;
+
+        span {
+            margin: 0 10px;
+        }
+
+        .links {
+            font-size: 8px;
+
+
+        }
+    }
+
+}

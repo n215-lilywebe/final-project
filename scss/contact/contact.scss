@@ -1,0 +1,65 @@
+.contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .left {
+
+        max-width: 400px;
+
+        hr {
+            margin-top: 8px;
+            width: 159px;
+        }
+
+        img {
+            padding-top: 45px;
+        }
+
+        p {
+            font-family: GillSansUB;
+            padding-top: 35px;
+            padding-bottom: 100px;
+        }
+
+        h1 {
+            font-family: ProximaNovaECT;
+            font-size: 30px;
+        }
+    }
+
+    .right {
+        padding-top: 154px;
+        max-width: 529px;
+
+
+        input {}
+
+        .message {
+            height: 200px;
+        }
+
+        .submit {
+
+            width: 168px;
+            height: 60px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+
+        }
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .contact-page {
+        max-width: 90%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+
+        .right {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+}

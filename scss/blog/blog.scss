@@ -1,0 +1,74 @@
+.posts {
+    font-family: GillSansUB;
+
+    .post {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+
+        .date {
+            background-color: blue;
+            color: white;
+            height: 60px;
+            width: 60px;
+            text-align: center;
+            padding-top: 5px;
+
+            h2 {
+                margin-bottom: 0px;
+            }
+
+            p {
+                color: white;
+            }
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        p {
+            max-width: 380px;
+            font-size: 13px;
+            color: blue;
+        }
+    }
+}
+
+.blog-heading {
+    padding-top: 55px;
+    padding-bottom: 31px;
+
+    h1 {
+        font-family: ProximaNovaECT;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    hr {
+        width: 106px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .posts {
+        max-width: 90%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+
+        .post {
+            .date {
+                margin-right: 10px;
+            }
+        }
+
+        img {
+            max-width: 90%;
+        }
+    }
+
+    .blog-heading {
+        max-width: 90%;
+        margin-left: 20px;
+    }
+}
