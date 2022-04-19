@@ -174,8 +174,318 @@ var aboutContent = `    <nav>
     <p>Copyright 2019 eventsy. All rights reserved</p>
 </div>
 </div>`;
-var productsContent = '<h1>products</h1>';
+var blogContent = '<h1>products</h1>';
 var contactContent = '<h1>contact</h1>';
+var galleryContent = `    <nav>
+<div class="logo">
+    <img class="home" src="images/Group 2.png" alt="">
+</div>
+<div class="links">
+    <a class="home" href="#home">home</a>
+    <span>/</span>
+    <a class="home" href="#about">about</a>
+    <span>/</span>
+    <a class="home" href="#products">gallery</a>
+    <span>/</span>
+    <a class="home" href="#contact">blog</a>
+    <span>/</span>
+    <a class="home" href="#services">contact</a>
+</div>
+</nav>
+
+<div class="gallery-header">
+<h3>GALLERY:</h3>
+<hr>
+</div>
+<div class="gallery-images">
+<a href="#foodfestival">
+    <div class="one"></div>
+</a>
+<a href="#deejay">
+    <div class="two"></div>
+</a>
+<a href="#speech">
+    <div class="three"></div>
+</a>
+<a href="#openfoodfest">
+    <div class="four"></div>
+</a>
+<a href="#international">
+    <div class="five"></div>
+</a>
+
+</div>
+
+
+
+
+<div class="footer">
+<div class="logo">
+    <img src="images/Group 2.png" alt="">
+</div>
+<div class="info">
+    <p>420 Smoke St. Los Angeles, CA 46318</p>
+    <p>(213)-467-2627</p>
+    <p>info@eventsy.com</p>
+</div>
+<div class="subscribe">
+    <div class="entry">
+        <input type="email" placeholder="Enter your email to join newsletter...">
+    </div>
+    <div class="subscribe-button">
+        <a href="#home">SUBSCRIBE</a>
+    </div>
+</div>
+<div class="socials">
+    <i class="fa-brands fa-facebook-square"></i>
+    <i class="fa-brands fa-instagram-square"></i>
+    <i class="fa-brands fa-twitter-square"></i>
+</div>
+<div class="copyright">
+    <p>Copyright 2019 eventsy. All rights reserved</p>
+</div>
+</div>`
+var foodfestivalContent = `    <nav>
+<div class="logo">
+    <img class="home" src="images/Group 2.png" alt="">
+</div>
+<div class="links">
+    <a class="home" href="#home">home</a>
+    <span>/</span>
+    <a class="home" href="#about">about</a>
+    <span>/</span>
+    <a class="home" href="#gallery">gallery</a>
+    <span>/</span>
+    <a class="home" href="#blog">blog</a>
+    <span>/</span>
+    <a class="home" href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="hero-gallery-one gallery-hero">
+</div>
+<div class="hero-gallery-text one">
+<h1 class="number">1</h1>
+<h1 class="title">food festival</h1>
+</div>
+<div class="gallery-text">
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+</p>
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+    numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+</div>
+
+
+
+
+<div class="footer">
+<div class="logo">
+    <img src="images/Group 2.png" alt="">
+</div>
+<div class="info">
+    <p>420 Smoke St. Los Angeles, CA 46318</p>
+    <p>(213)-467-2627</p>
+    <p>info@eventsy.com</p>
+</div>
+<div class="subscribe">
+    <div class="entry">
+        <input type="email" placeholder="Enter your email to join newsletter...">
+    </div>
+    <div class="subscribe-button">
+        <a href="#home">SUBSCRIBE</a>
+    </div>
+</div>
+<div class="socials">
+    <i class="fa-brands fa-facebook-square"></i>
+    <i class="fa-brands fa-instagram-square"></i>
+    <i class="fa-brands fa-twitter-square"></i>
+</div>
+<div class="copyright">
+    <p>Copyright 2019 eventsy. All rights reserved</p>
+</div>
+</div>`;
+var deejayContent = `    <nav>
+<div class="logo">
+    <img class="home" src="images/Group 2.png" alt="">
+</div>
+<div class="links">
+    <a class="home" href="#home">home</a>
+    <span>/</span>
+    <a class="home" href="#about">about</a>
+    <span>/</span>
+    <a class="home" href="#gallery">gallery</a>
+    <span>/</span>
+    <a class="home" href="#blog">blog</a>
+    <span>/</span>
+    <a class="home" href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="hero-gallery-two gallery-hero">
+</div>
+<div class="hero-gallery-text two">
+<h1 class="number">2</h1>
+<h1 class="title">dee-jay</h1>
+</div>
+<div class="gallery-text">
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+</p>
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+    numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+</div>
+
+
+
+
+<div class="footer">
+<div class="logo">
+    <img src="images/Group 2.png" alt="">
+</div>
+<div class="info">
+    <p>420 Smoke St. Los Angeles, CA 46318</p>
+    <p>(213)-467-2627</p>
+    <p>info@eventsy.com</p>
+</div>
+<div class="subscribe">
+    <div class="entry">
+        <input type="email" placeholder="Enter your email to join newsletter...">
+    </div>
+    <div class="subscribe-button">
+        <a href="#home">SUBSCRIBE</a>
+    </div>
+</div>
+<div class="socials">
+    <i class="fa-brands fa-facebook-square"></i>
+    <i class="fa-brands fa-instagram-square"></i>
+    <i class="fa-brands fa-twitter-square"></i>
+</div>
+<div class="copyright">
+    <p>Copyright 2019 eventsy. All rights reserved</p>
+</div>
+</div>`;
+var speechContent = `<nav>
+<div class="logo">
+    <img class="home" src="images/Group 2.png" alt="">
+</div>
+<div class="links">
+    <a class="home" href="#home">home</a>
+    <span>/</span>
+    <a class="home" href="#about">about</a>
+    <span>/</span>
+    <a class="home" href="#gallery">gallery</a>
+    <span>/</span>
+    <a class="home" href="#blog">blog</a>
+    <span>/</span>
+    <a class="home" href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="hero-gallery-three gallery-hero">
+</div>
+<div class="hero-gallery-text three">
+<h1 class="number">3</h1>
+<h1 class="title">speech</h1>
+</div>
+<div class="gallery-text">
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+</p>
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+    numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+</div>
+
+
+
+
+<div class="footer">
+<div class="logo">
+    <img src="images/Group 2.png" alt="">
+</div>
+<div class="info">
+    <p>420 Smoke St. Los Angeles, CA 46318</p>
+    <p>(213)-467-2627</p>
+    <p>info@eventsy.com</p>
+</div>
+<div class="subscribe">
+    <div class="entry">
+        <input type="email" placeholder="Enter your email to join newsletter...">
+    </div>
+    <div class="subscribe-button">
+        <a href="#home">SUBSCRIBE</a>
+    </div>
+</div>
+<div class="socials">
+    <i class="fa-brands fa-facebook-square"></i>
+    <i class="fa-brands fa-instagram-square"></i>
+    <i class="fa-brands fa-twitter-square"></i>
+</div>
+<div class="copyright">
+    <p>Copyright 2019 eventsy. All rights reserved</p>
+</div>
+</div>`;
+var openfoodfestContent = `<nav>
+<div class="logo">
+    <img class="home" src="images/Group 2.png" alt="">
+</div>
+<div class="links">
+    <a class="home" href="#home">home</a>
+    <span>/</span>
+    <a class="home" href="#about">about</a>
+    <span>/</span>
+    <a class="home" href="#gallery">gallery</a>
+    <span>/</span>
+    <a class="home" href="#blog">blog</a>
+    <span>/</span>
+    <a class="home" href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="hero-gallery-four gallery-hero">
+</div>
+<div class="hero-gallery-text four">
+<h1 class="number">4</h1>
+<h1 class="title">Open foodfest</h1>
+</div>
+<div class="gallery-text">
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+</p>
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+    numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+</div>
+
+
+
+
+<div class="footer">
+<div class="logo">
+    <img src="images/Group 2.png" alt="">
+</div>
+<div class="info">
+    <p>420 Smoke St. Los Angeles, CA 46318</p>
+    <p>(213)-467-2627</p>
+    <p>info@eventsy.com</p>
+</div>
+<div class="subscribe">
+    <div class="entry">
+        <input type="email" placeholder="Enter your email to join newsletter...">
+    </div>
+    <div class="subscribe-button">
+        <a href="#home">SUBSCRIBE</a>
+    </div>
+</div>
+<div class="socials">
+    <i class="fa-brands fa-facebook-square"></i>
+    <i class="fa-brands fa-instagram-square"></i>
+    <i class="fa-brands fa-twitter-square"></i>
+</div>
+<div class="copyright">
+    <p>Copyright 2019 eventsy. All rights reserved</p>
+</div>
+</div>`;
+var internationalContent = '<h1> international </h1>';
 
 
 export function modelPageName(pgName) {

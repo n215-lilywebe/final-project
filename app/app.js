@@ -18,7 +18,7 @@ function route() {
 
 function initListeners() {
     $(window).on("hashchange", route);
-    // route();
+    route();
 }
 $(document).ready(function () {
     initListeners();
