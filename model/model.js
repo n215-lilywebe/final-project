@@ -10,10 +10,12 @@ export function modelPageName(pgName) {
 
     if (pgName == "homeContent") {
         $("nav a, .logo").removeClass("other").addClass("home");
+        $(".not-home").removeClass("not-home").addClass("home");
 
     }
     else {
         $("nav a, .logo").removeClass("home").addClass("other");
+        $(".not-home").removeClass("home").addClass("not-home");
 
     }
 

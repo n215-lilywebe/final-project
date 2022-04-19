@@ -1,0 +1,67 @@
+.event-section {
+    background-color: #540D6E;
+    height: 320px;
+    width: 100%;
+
+    h2 {
+        padding-top: 50px;
+        padding-left: 40px;
+        color: white;
+        font-size: 25px;
+        max-width: 1198px;
+
+    }
+
+    hr {
+        width: 392px;
+        margin-left: 40px;
+    }
+
+    .events {
+        padding-top: 35px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 1198px;
+        margin: 0 auto;
+
+        .eventsum {
+            display: flex;
+            justify-content: space-between;
+            width: 210px;
+
+            .date {
+                min-width: 60px;
+                height: 60px;
+                background-color: #EE4367;
+                text-align: center;
+                color: white;
+
+                .day {
+                    font-size: 22px;
+                    margin-bottom: 0px;
+                    margin-top: 10px;
+                }
+
+                .month {
+                    font-size: 12px;
+                }
+            }
+
+            .event-text {
+                margin-left: 20px;
+
+                h3 {
+                    color: white;
+                    font-size: 15px;
+                }
+
+                p {
+                    color: #EE4367;
+                    font-size: 13px;
+                }
+            }
+
+        }
+    }
+}

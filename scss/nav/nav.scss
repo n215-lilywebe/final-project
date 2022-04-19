@@ -8,7 +8,10 @@ nav {
     justify-content: space-between;
     position: relative;
     z-index: 99;
-    background-color: yellow;
+
+    .not-home {
+        border-bottom: 2px solid black;
+    }
 
     span {
         color: #EE4367;

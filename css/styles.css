@@ -140,7 +140,9 @@ nav {
   justify-content: space-between;
   position: relative;
   z-index: 99;
-  background-color: yellow;
+}
+nav .not-home {
+  border-bottom: 2px solid black;
 }
 nav span {
   color: #EE4367;
@@ -181,6 +183,170 @@ nav .links a {
   nav .links {
     font-size: 8px;
   }
+}
+.hero {
+  background-image: linear-gradient(rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../images/herohome.png);
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+.hero .header {
+  text-align: center;
+  margin-top: 63px;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 0px;
+}
+.hero .sub-header {
+  color: #EE4367;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.hero .header-text {
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+  max-width: 714px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.hero .hero-button {
+  width: 120px;
+  height: 40px;
+  background-color: #EE4367;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.quote {
+  max-width: 789px;
+  margin: 0 auto;
+  margin-bottom: 76px;
+}
+.quote h2 {
+  color: #ffd140;
+  font-size: 15px;
+  margin-top: 70px;
+}
+.quote h3 {
+  font-size: 15px;
+  color: #EE4367;
+  margin-top: 20px;
+}
+.quote p {
+  font-size: 10px;
+}
+
+.event-section {
+  background-color: #540D6E;
+  height: 320px;
+  width: 100%;
+}
+.event-section h2 {
+  padding-top: 50px;
+  padding-left: 40px;
+  color: white;
+  font-size: 25px;
+  max-width: 1198px;
+}
+.event-section hr {
+  width: 392px;
+  margin-left: 40px;
+}
+.event-section .events {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1198px;
+  margin: 0 auto;
+}
+.event-section .events .eventsum {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+}
+.event-section .events .eventsum .date {
+  min-width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  text-align: center;
+  color: white;
+}
+.event-section .events .eventsum .date .day {
+  font-size: 22px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.event-section .events .eventsum .date .month {
+  font-size: 12px;
+}
+.event-section .events .eventsum .event-text {
+  margin-left: 20px;
+}
+.event-section .events .eventsum .event-text h3 {
+  color: white;
+  font-size: 15px;
+}
+.event-section .events .eventsum .event-text p {
+  color: #EE4367;
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #EE4367;
+  height: 455px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.footer .logo {
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+.footer .info {
+  font-size: 16px;
+  padding-bottom: 45px;
+}
+.footer .info p {
+  margin-bottom: 5px;
+}
+.footer .subscribe {
+  display: flex;
+  justify-content: space-around;
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.footer .subscribe .entry input {
+  height: 60px;
+  width: 529px;
+  background-color: #F56B88;
+  border-style: none;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.footer .subscribe .subscribe-button {
+  background-color: white;
+  width: 167px;
+  height: 60px;
+  padding-top: 20px;
+}
+.footer .subscribe .subscribe-button a {
+  color: #EE4367;
+  text-decoration: none;
+  text-align: center;
+}
+.footer .socials {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  margin: 0 auto;
+}
+.footer .copyright {
+  margin-top: 45px;
 }
 
 /*# sourceMappingURL=styles.css.map */

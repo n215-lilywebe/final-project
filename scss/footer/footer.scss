@@ -1,0 +1,67 @@
+.footer {
+    background-color: #EE4367;
+    height: 455px;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+    .logo {
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
+    .info {
+        font-size: 16px;
+        padding-bottom: 45px;
+
+        p {
+            margin-bottom: 5px;
+        }
+    }
+
+    .subscribe {
+        display: flex;
+        justify-content: space-around;
+        width: 696px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+        .entry {
+            input {
+                height: 60px;
+                width: 529px;
+                background-color: #F56B88;
+                border-style: none;
+                padding-left: 10px;
+                font-size: 16px;
+                //add placeholder color text
+            }
+
+        }
+
+        .subscribe-button {
+            background-color: white;
+            width: 167px;
+            height: 60px;
+            padding-top: 20px;
+
+            a {
+                color: #EE4367;
+                text-decoration: none;
+                text-align: center;
+            }
+        }
+    }
+
+    .socials {
+        font-size: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .copyright {
+        margin-top: 45px;
+    }
+}
