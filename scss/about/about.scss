@@ -1,0 +1,39 @@
+.hero-image-about {
+    background-image: linear-gradient(rgba(#FFD140, .5), rgba(#FFD140, .5)), url(../images/about-hero.png);
+    height: 379px;
+    max-width: 979px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+.about-content {
+    max-width: 979px;
+    margin: 0 auto;
+    margin-bottom: 95px;
+
+    h3 {
+        margin-top: -20px;
+        font-size: 25px;
+    }
+
+    hr {
+        width: 229px;
+    }
+
+    p {
+        margin-top: 36px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .hero-image-about {
+        max-width: 90%;
+    }
+
+    .about-content {
+        max-width: 90%;
+    }
+
+}
