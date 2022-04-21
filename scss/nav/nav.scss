@@ -2,33 +2,24 @@ nav {
     max-width: 1000px;
     height: 80px;
     margin: 0 auto;
-    border-bottom: 2px solid white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
     z-index: 99;
 
-    .not-home {
-        border-bottom: 2px solid black;
-    }
+
 
     span {
         color: #EE4367;
-        margin: 0 20px;
+
     }
 
     .logo {
         max-width: 10%;
         height: 53%;
 
-        .home {
-            color: white;
-        }
 
-        .other {
-            color: black;
-        }
 
 
 
@@ -37,23 +28,52 @@ nav {
     .links {
         max-width: 85%;
 
-        .home {
-            color: white;
-        }
 
-        .other {
-            color: black;
-        }
 
         a {
             font-size: 15px;
 
             text-decoration: none;
             font-family: GillSansUB;
+            margin-left: 20px;
 
         }
 
     }
+}
+
+.home {
+
+    a,
+    img {
+        border-style: none;
+    }
+
+    border-bottom: 2px solid white;
+
+    color: white;
+
+}
+
+.other {
+
+    a,
+    img {
+        border-style: none;
+    }
+
+    .logo {
+        border-style: none;
+    }
+
+    border-bottom: 2px solid black;
+
+    color: black;
+
+    img {
+        color: black;
+    }
+
 }
 
 

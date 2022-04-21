@@ -1,21 +1,5 @@
 
-var homeContent = `     <div class="hero">
-<nav>
-    <div class="logo">
-        <img class="home" src="images/Group 2.png" alt="">
-    </div>
-    <div class="links">
-        <a class="home" href="#home">home</a>
-        <span>/</span>
-        <a class="home" href="#about">about</a>
-        <span>/</span>
-        <a class="home" href="#gallery">gallery</a>
-        <span>/</span>
-        <a class="home" href="#blog">blog</a>
-        <span>/</span>
-        <a class="home" href="#contact">contact</a>
-    </div>
-</nav>
+var homeContent = `       <div class="hero">
 <div class="header">
     <h1>Header goes here</h1>
 </div>
@@ -23,9 +7,8 @@ var homeContent = `     <div class="hero">
     <h2>Less important text goes here</h2>
 </div>
 <div class="header-text">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sunt laudantium atque voluptatem
-        explicabo iusto eius aliquam perferendis aspernatur reprehenderit obcaecati eum quaerat nulla tempora
-        provident sed labore, laboriosam fuga.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Fugiat aliquid minus nemo sed est.</p>
 </div>
 <a class="hero-button" href="#about">Read More</a>
 </div>
@@ -104,49 +87,8 @@ var homeContent = `     <div class="hero">
     </div>
 </div>
 </div>
-
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var aboutContent = `    <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var aboutContent = `   
 
 <div class="hero-image-about">
 </div>
@@ -161,48 +103,8 @@ var aboutContent = `    <nav>
 
 
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var blogContent = `    <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var blogContent = ` 
 
 <div class="blog-content">
 <div class="blog-header">
@@ -287,48 +189,8 @@ var blogContent = `    <nav>
 </div>
 </div>
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var blogoneContent = `    <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var blogoneContent = `
 <div class="blog-page-content">
 <div class="blog-hero">
 
@@ -353,48 +215,8 @@ var blogoneContent = `    <nav>
 </div>
 </div>
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var blogtwoContent = `   <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var blogtwoContent = `
 <div class="blog-page-content">
 <div class="blog-hero">
 
@@ -419,48 +241,8 @@ var blogtwoContent = `   <nav>
 </div>
 </div>
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var blogthreeContent = ` <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var blogthreeContent = `
 <div class="blog-page-content">
 <div class="blog-hero">
 
@@ -485,48 +267,8 @@ var blogthreeContent = ` <nav>
 </div>
 </div>
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var blogfourContent = `    <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var blogfourContent = `  
 <div class="blog-page-content">
 <div class="blog-hero">
 
@@ -551,48 +293,8 @@ var blogfourContent = `    <nav>
 </div>
 </div>
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var blogfiveContent = ` <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var blogfiveContent = ` 
 <div class="blog-page-content">
 <div class="blog-hero">
 
@@ -617,48 +319,8 @@ var blogfiveContent = ` <nav>
 </div>
 </div>
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var contactContent = `    <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var contactContent = ` 
 
 <div class="contact-content">
 <div class="contact-header">
@@ -679,48 +341,8 @@ var contactContent = `    <nav>
 </div>
 </div>
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var galleryContent = `    <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var galleryContent = `
 
 <div class="gallery-header">
 <h3>GALLERY:</h3>
@@ -748,48 +370,8 @@ var galleryContent = `    <nav>
 
 
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`
-var foodfestivalContent = `    <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`
+var foodfestivalContent = `
 
 <div class="hero-gallery-one gallery-hero">
 </div>
@@ -808,48 +390,8 @@ var foodfestivalContent = `    <nav>
 
 
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var deejayContent = `    <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var deejayContent = ` 
 
 <div class="hero-gallery-two gallery-hero">
 </div>
@@ -868,48 +410,8 @@ var deejayContent = `    <nav>
 
 
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var speechContent = `<nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var speechContent = `
 
 <div class="hero-gallery-three gallery-hero">
 </div>
@@ -928,48 +430,8 @@ var speechContent = `<nav>
 
 
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var openfoodfestContent = `<nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var openfoodfestContent = `
 
 <div class="hero-gallery-four gallery-hero">
 </div>
@@ -988,48 +450,8 @@ var openfoodfestContent = `<nav>
 
 
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
-var internationalContent = `    <nav>
-<div class="logo">
-    <img class="home" src="images/Group 2.png" alt="">
-</div>
-<div class="links">
-    <a class="home" href="#home">home</a>
-    <span>/</span>
-    <a class="home" href="#about">about</a>
-    <span>/</span>
-    <a class="home" href="#gallery">gallery</a>
-    <span>/</span>
-    <a class="home" href="#blog">blog</a>
-    <span>/</span>
-    <a class="home" href="#contact">contact</a>
-</div>
-</nav>
+`;
+var internationalContent = ` 
 
 <div class="hero-gallery-five gallery-hero">
 </div>
@@ -1046,45 +468,20 @@ var internationalContent = `    <nav>
 </div>
 
 
-<div class="footer">
-<div class="logo">
-    <img src="images/Group 2.png" alt="">
-</div>
-<div class="info">
-    <p>420 Smoke St. Los Angeles, CA 46318</p>
-    <p>(213)-467-2627</p>
-    <p>info@eventsy.com</p>
-</div>
-<div class="subscribe">
-    <div class="entry">
-        <input type="email" placeholder="Enter your email to join newsletter...">
-    </div>
-    <div class="subscribe-button">
-        <a href="#home">SUBSCRIBE</a>
-    </div>
-</div>
-<div class="socials">
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-twitter-square"></i>
-</div>
-<div class="copyright">
-    <p>Copyright 2019 eventsy. All rights reserved</p>
-</div>
-</div>`;
+`;
 
 
 export function modelPageName(pgName) {
-    // $("#app").html(eval(pgName));
+    //$("#app").html(eval(pgName));
 
     if (pgName == "homeContent") {
-        $("nav a, .logo").removeClass("other").addClass("home");
-        $(".not-home").removeClass("not-home").addClass("home");
+        $("nav, nav a, nav .logo").removeClass("other").addClass("home");
+
 
     }
     else {
-        $("nav a, .logo").removeClass("home").addClass("other");
-        $(".not-home").removeClass("home").addClass("not-home");
+        $("nav, nav a, nav .logo").removeClass("home").addClass("other");
+
 
     }
 
