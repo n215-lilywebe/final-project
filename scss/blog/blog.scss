@@ -1,74 +1,102 @@
-.posts {
-    font-family: GillSansUB;
+.blog-content {
+    max-width: 1000px;
+    margin: 0 auto;
 
-    .post {
+    .blog-header {
+        margin-top: 64px;
+        margin-bottom: 30px;
+
+        h1 {
+            font-size: 25px;
+            margin-bottom: 5px;
+
+        }
+
+        hr {
+            width: 229px;
+        }
+    }
+
+    .blog-cards {
+        flex-wrap: wrap;
         display: flex;
-        justify-content: space-evenly;
-        margin-bottom: 100px;
+        justify-content: space-between;
 
-        .date {
-            background-color: blue;
-            color: white;
-            height: 60px;
-            width: 60px;
-            text-align: center;
-            padding-top: 5px;
+        max-width: 100%;
+        text-decoration: none;
 
-            h2 {
-                margin-bottom: 0px;
+
+
+        .card {
+            width: 460px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+
+
+            .last {
+                margin-bottom: 85px;
             }
 
-            p {
-                color: white;
+            .blog-sum {
+                margin-left: 20px;
+
+
+                img {
+                    width: 380px;
+                    height: 140px;
+                }
+
+                h3 {
+                    font-size: 15px;
+                    margin-top: 20px;
+
+                }
+
+                p {
+                    color: #EE4367;
+                    font-size: 13px;
+                }
             }
-        }
 
-        h3 {
-            font-size: 15px;
-        }
-
-        p {
-            max-width: 380px;
-            font-size: 13px;
-            color: blue;
-        }
-    }
-}
-
-.blog-heading {
-    padding-top: 55px;
-    padding-bottom: 31px;
-
-    h1 {
-        font-family: ProximaNovaECT;
-        font-size: 30px;
-        letter-spacing: 5px;
-    }
-
-    hr {
-        width: 106px;
-    }
-}
-
-@media screen and (max-width:1300px) {
-    .posts {
-        max-width: 90%;
-        margin: 0 auto;
-        justify-content: space-evenly;
-
-        .post {
             .date {
-                margin-right: 10px;
+                min-width: 60px;
+                height: 60px;
+                background-color: #EE4367;
+                text-align: center;
+                color: white;
+
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+                .day {
+                    font-size: 22px;
+                    margin-bottom: 0px;
+                    margin-top: 10px;
+                }
+
+                .month {
+                    font-size: 12px;
+                }
             }
         }
 
-        img {
-            max-width: 90%;
-        }
+
+    }
+}
+
+.last-card {
+    padding-bottom: 85px;
+}
+
+@media screen and (max-width:1000px) {
+
+    .blog-content {
+        max-width: 80%;
+        margin: 0 auto;
     }
 
-    .blog-heading {
-        max-width: 90%;
-        margin-left: 20px;
-    }
+
 }

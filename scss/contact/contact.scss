@@ -1,65 +1,87 @@
-.contact-page {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.contact-content {
+    max-width: 1000px;
+    margin: 0 auto;
 
-    .left {
-
-        max-width: 400px;
+    .contact-header {
+        margin-top: 63px;
+        margin-bottom: 75px;
 
         hr {
-            margin-top: 8px;
-            width: 159px;
-        }
-
-        img {
-            padding-top: 45px;
-        }
-
-        p {
-            font-family: GillSansUB;
-            padding-top: 35px;
-            padding-bottom: 100px;
+            width: 229px;
         }
 
         h1 {
-            font-family: ProximaNovaECT;
-            font-size: 30px;
+            font-size: 25px;
+            margin-bottom: 5px;
         }
     }
 
-    .right {
-        padding-top: 154px;
-        max-width: 529px;
+    .form-map {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
 
+        .form {
+            display: flex;
+            flex-direction: column;
 
-        input {}
+            .input-box {
+                width: 529px;
 
-        .message {
-            height: 200px;
-        }
+                background-color: #F5F5F5;
+                border-style: none;
+                padding-left: 20px;
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
 
-        .submit {
+            .reg {
+                height: 60px;
+            }
 
-            width: 168px;
-            height: 60px;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            .long {
+                height: 200px;
+            }
 
-
+            a {
+                color: white;
+                background-color: #EE4367;
+                width: 167px;
+                height: 60px;
+                font-size: 16px;
+                text-decoration: none;
+                text-align: center;
+                padding-top: 20px;
+                margin-bottom: 90px;
+            }
         }
     }
 }
 
-@media screen and (max-width:1300px) {
-    .contact-page {
-        max-width: 90%;
-        margin: 0 auto;
-        justify-content: space-evenly;
+@media screen and (max-width:1000px) {
+    .contact-content {
+        max-width: 80%;
 
-        .right {
-            padding-top: 50px;
-            padding-bottom: 50px;
+    }
+
+    .contact-header {
+        width: 229px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .form {
+        width: 530px;
+        margin: 0 auto;
+
+        a {
+            margin: 0 auto;
         }
+    }
+
+    .map {
+
+        margin: 0 auto;
+        margin-bottom: 50px;
     }
 }

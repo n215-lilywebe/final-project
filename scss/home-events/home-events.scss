@@ -1,26 +1,33 @@
 .event-section {
     background-color: #540D6E;
-    height: 320px;
+    min-height: 320px;
     width: 100%;
 
-    h2 {
-        padding-top: 50px;
-        padding-left: 40px;
+    .event-header {
         color: white;
         font-size: 25px;
         max-width: 1198px;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-left: 25px;
 
+        h2 {
+            font-size: 25px;
+            ;
+        }
+
+        hr {
+            width: 392px;
+        }
     }
 
-    hr {
-        width: 392px;
-        margin-left: 40px;
-    }
+
 
     .events {
         padding-top: 35px;
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
         align-items: center;
         max-width: 1198px;
         margin: 0 auto;
@@ -36,6 +43,11 @@
                 background-color: #EE4367;
                 text-align: center;
                 color: white;
+
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                }
 
                 .day {
                     font-size: 22px;
@@ -62,6 +74,16 @@
                 }
             }
 
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .events {
+        max-width: 80%;
+
+        .eventsum {
+            padding-bottom: 20px;
         }
     }
 }

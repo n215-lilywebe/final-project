@@ -19,115 +19,206 @@ p {
   margin-bottom: 16px;
 }
 
-.posts {
-  font-family: GillSansUB;
+.blog-content {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.posts .post {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 100px;
+.blog-content .blog-header {
+  margin-top: 64px;
+  margin-bottom: 30px;
 }
-.posts .post .date {
-  background-color: blue;
-  color: white;
-  height: 60px;
-  width: 60px;
-  text-align: center;
-  padding-top: 5px;
+.blog-content .blog-header h1 {
+  font-size: 25px;
+  margin-bottom: 5px;
 }
-.posts .post .date h2 {
-  margin-bottom: 0px;
+.blog-content .blog-header hr {
+  width: 229px;
 }
-.posts .post .date p {
-  color: white;
-}
-.posts .post h3 {
-  font-size: 15px;
-}
-.posts .post p {
-  max-width: 380px;
-  font-size: 13px;
-  color: blue;
-}
-
-.blog-heading {
-  padding-top: 55px;
-  padding-bottom: 31px;
-}
-.blog-heading h1 {
-  font-family: ProximaNovaECT;
-  font-size: 30px;
-  letter-spacing: 5px;
-}
-.blog-heading hr {
-  width: 106px;
-}
-
-@media screen and (max-width: 1300px) {
-  .posts {
-    max-width: 90%;
-    margin: 0 auto;
-    justify-content: space-evenly;
-  }
-  .posts .post .date {
-    margin-right: 10px;
-  }
-  .posts img {
-    max-width: 90%;
-  }
-
-  .blog-heading {
-    max-width: 90%;
-    margin-left: 20px;
-  }
-}
-.contact-page {
-  display: flex;
+.blog-content .blog-cards {
   flex-wrap: wrap;
+  display: flex;
   justify-content: space-between;
+  max-width: 100%;
+  text-decoration: none;
 }
-.contact-page .left {
-  max-width: 400px;
+.blog-content .blog-cards .card {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
-.contact-page .left hr {
-  margin-top: 8px;
-  width: 159px;
+.blog-content .blog-cards .card .last {
+  margin-bottom: 85px;
 }
-.contact-page .left img {
-  padding-top: 45px;
+.blog-content .blog-cards .card .blog-sum {
+  margin-left: 20px;
 }
-.contact-page .left p {
-  font-family: GillSansUB;
-  padding-top: 35px;
-  padding-bottom: 100px;
+.blog-content .blog-cards .card .blog-sum img {
+  width: 380px;
+  height: 140px;
 }
-.contact-page .left h1 {
-  font-family: ProximaNovaECT;
-  font-size: 30px;
+.blog-content .blog-cards .card .blog-sum h3 {
+  font-size: 15px;
+  margin-top: 20px;
 }
-.contact-page .right {
-  padding-top: 154px;
-  max-width: 529px;
+.blog-content .blog-cards .card .blog-sum p {
+  color: #EE4367;
+  font-size: 13px;
 }
-.contact-page .right .message {
+.blog-content .blog-cards .card .date {
+  min-width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  text-align: center;
+  color: white;
+}
+.blog-content .blog-cards .card .date a {
+  text-decoration: none;
+  color: inherit;
+}
+.blog-content .blog-cards .card .date .day {
+  font-size: 22px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.blog-content .blog-cards .card .date .month {
+  font-size: 12px;
+}
+
+.last-card {
+  padding-bottom: 85px;
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-content {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+.blog-page-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.blog-page-content h3 {
+  color: #EE4367;
+  font-size: 22px;
+}
+.blog-page-content p {
+  font-size: 20px;
+}
+.blog-page-content .blog-hero {
+  background-image: linear-gradient(rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.5)), url(../images/blog.png);
+  background-image: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 981px;
+  height: 300px;
+  margin-top: 55px;
+  padding-top: 70px;
+}
+.blog-page-content .blog-hero .date {
+  text-align: center;
+  margin: 0 auto;
+  width: 155px;
+  height: 155px;
+  background-color: #EE4367;
+  color: white;
+}
+.blog-page-content .blog-hero .date .day {
+  font-size: 55px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+}
+.blog-page-content .blog-hero .date .month {
+  font-size: 31px;
+}
+.blog-page-content .header-one {
+  margin-top: 55px;
+  max-width: 85%;
+  margin-bottom: 55px;
+}
+.blog-page-content .header-two {
+  max-width: 85%;
+  margin-bottom: 151px;
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-page-content {
+    max-width: 80%;
+  }
+}
+.contact-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.contact-content .contact-header {
+  margin-top: 63px;
+  margin-bottom: 75px;
+}
+.contact-content .contact-header hr {
+  width: 229px;
+}
+.contact-content .contact-header h1 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.contact-content .form-map {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-content .form-map .form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-content .form-map .form .input-box {
+  width: 529px;
+  background-color: #F5F5F5;
+  border-style: none;
+  padding-left: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.contact-content .form-map .form .reg {
+  height: 60px;
+}
+.contact-content .form-map .form .long {
   height: 200px;
 }
-.contact-page .right .submit {
-  width: 168px;
+.contact-content .form-map .form a {
+  color: white;
+  background-color: #EE4367;
+  width: 167px;
   height: 60px;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 90px;
 }
 
-@media screen and (max-width: 1300px) {
-  .contact-page {
-    max-width: 90%;
-    margin: 0 auto;
-    justify-content: space-evenly;
+@media screen and (max-width: 1000px) {
+  .contact-content {
+    max-width: 80%;
   }
-  .contact-page .right {
-    padding-top: 50px;
-    padding-bottom: 50px;
+
+  .contact-header {
+    width: 229px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .form {
+    width: 530px;
+    margin: 0 auto;
+  }
+  .form a {
+    margin: 0 auto;
+  }
+
+  .map {
+    margin: 0 auto;
+    margin-bottom: 50px;
   }
 }
 nav {
@@ -238,26 +329,35 @@ nav .links a {
   font-size: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+  .quote {
+    max-width: 80%;
+  }
+}
 .event-section {
   background-color: #540D6E;
-  height: 320px;
+  min-height: 320px;
   width: 100%;
 }
-.event-section h2 {
-  padding-top: 50px;
-  padding-left: 40px;
+.event-section .event-header {
   color: white;
   font-size: 25px;
   max-width: 1198px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-left: 25px;
 }
-.event-section hr {
+.event-section .event-header h2 {
+  font-size: 25px;
+}
+.event-section .event-header hr {
   width: 392px;
-  margin-left: 40px;
 }
 .event-section .events {
   padding-top: 35px;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
   max-width: 1198px;
   margin: 0 auto;
@@ -273,6 +373,10 @@ nav .links a {
   background-color: #EE4367;
   text-align: center;
   color: white;
+}
+.event-section .events .eventsum .date a {
+  text-decoration: none;
+  color: inherit;
 }
 .event-section .events .eventsum .date .day {
   font-size: 22px;
@@ -294,6 +398,14 @@ nav .links a {
   font-size: 13px;
 }
 
+@media screen and (max-width: 1000px) {
+  .events {
+    max-width: 80%;
+  }
+  .events .eventsum {
+    padding-bottom: 20px;
+  }
+}
 .footer {
   background-color: #EE4367;
   height: 455px;
