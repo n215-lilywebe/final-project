@@ -1,7 +1,28 @@
+@font-face {
+  font-family: PTSB;
+  src: url(../fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: PTSBI;
+  src: url(../fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTSI;
+  src: url(../fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: PTSR;
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: GillSans;
+  src: url(../fonts/GillSans.ttc);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: GillSans;
 }
 
 html,
@@ -233,6 +254,7 @@ nav {
 }
 nav span {
   color: #EE4367;
+  font-size: 20px;
 }
 nav .logo {
   max-width: 10%;
@@ -244,7 +266,7 @@ nav .links {
 nav .links a {
   font-size: 15px;
   text-decoration: none;
-  font-family: GillSansUB;
+  font-family: GillSans;
   margin-left: 20px;
 }
 
@@ -269,7 +291,7 @@ nav .links a {
   border-style: none;
 }
 .other img {
-  color: black;
+  background-color: black;
 }
 
 @media screen and (max-width: 1000px) {
@@ -299,6 +321,7 @@ nav .links a {
   font-size: 40px;
   color: white;
   margin-bottom: 0px;
+  font-family: PTSR;
 }
 .hero .sub-header {
   color: #EE4367;
@@ -517,6 +540,7 @@ nav .links a {
   margin-bottom: 30px;
   max-width: 1000px;
   margin: 0 auto;
+  margin-top: 40px;
 }
 .gallery-header hr {
   width: 229px;

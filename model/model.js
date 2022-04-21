@@ -475,12 +475,12 @@ export function modelPageName(pgName) {
     //$("#app").html(eval(pgName));
 
     if (pgName == "homeContent") {
-        $("nav, nav a, nav .logo").removeClass("other").addClass("home");
+        $("nav, nav a, nav img").removeClass("other").addClass("home");
 
 
     }
     else {
-        $("nav, nav a, nav .logo").removeClass("home").addClass("other");
+        $("nav, nav a, nav img").removeClass("home").addClass("other");
 
 
     }

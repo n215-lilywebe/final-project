@@ -12,6 +12,7 @@ nav {
 
     span {
         color: #EE4367;
+        font-size: 20px;
 
     }
 
@@ -34,7 +35,7 @@ nav {
             font-size: 15px;
 
             text-decoration: none;
-            font-family: GillSansUB;
+            font-family: GillSans;
             margin-left: 20px;
 
         }
@@ -48,6 +49,8 @@ nav {
     img {
         border-style: none;
     }
+
+
 
     border-bottom: 2px solid white;
 
@@ -71,7 +74,7 @@ nav {
     color: black;
 
     img {
-        color: black;
+        background-color: black;
     }
 
 }

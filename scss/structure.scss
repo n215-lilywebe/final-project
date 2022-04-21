@@ -1,7 +1,35 @@
+@font-face {
+    font-family: PTSB;
+    src: url(../fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: PTSBI;
+    src: url(../fonts/PTSerif-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: PTSI;
+    src: url(../fonts/PTSerif-Italic.ttf);
+}
+
+@font-face {
+    font-family: PTSR;
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: GillSans;
+    src: url(../fonts/GillSans.ttc);
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: GillSans;
 }
 
 html,
