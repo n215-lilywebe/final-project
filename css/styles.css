@@ -307,7 +307,7 @@ nav .links a {
   }
 }
 .hero {
-  background-image: linear-gradient(rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../images/herohome.png);
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/herohome.png);
   height: 500px;
   width: 100%;
   text-align: center;
@@ -315,6 +315,7 @@ nav .links a {
   background-repeat: no-repeat;
   background-size: cover;
   margin: -80px auto 0 auto;
+  font-weight: lighter;
 }
 .hero h1 {
   font-family: PTSR;
@@ -330,6 +331,7 @@ nav .links a {
   color: #EE4367;
   font-size: 20px;
   margin-bottom: 50px;
+  font-style: italic;
 }
 .hero .header-text {
   font-size: 20px;
@@ -338,6 +340,7 @@ nav .links a {
   max-width: 714px;
   margin: 0 auto;
   margin-bottom: 50px;
+  font-style: italic;
 }
 .hero .hero-button {
   width: 120px;
@@ -357,6 +360,9 @@ nav .links a {
   color: #ffd140;
   font-size: 15px;
   margin-top: 70px;
+  font-style: italic;
+  word-spacing: 5px;
+  line-height: 20px;
 }
 .quote h3 {
   font-size: 15px;
@@ -504,7 +510,7 @@ nav .links a {
 }
 
 .hero-image-about {
-  background-image: linear-gradient(rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../images/about-hero.png);
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/about-hero.png);
   height: 379px;
   max-width: 979px;
   margin: 0 auto;
@@ -526,6 +532,8 @@ nav .links a {
 .about-content p {
   margin-top: 36px;
   font-size: 16px;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 @media screen and (max-width: 1000px) {
@@ -562,31 +570,31 @@ nav .links a {
   width: 489px;
   height: 187px;
   margin-bottom: 20px;
-  background-image: linear-gradient(rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../images/1.png);
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/1.png);
 }
 .gallery-images .two {
   height: 187px;
   width: 187px;
   margin-bottom: 20px;
-  background-image: linear-gradient(rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.5)), url(../images/2.png);
+  background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url(../images/2.png);
 }
 .gallery-images .three {
   height: 187px;
   width: 265px;
   margin-bottom: 20px;
-  background-image: linear-gradient(rgba(8, 173, 105, 0.5), rgba(8, 173, 105, 0.5)), url(../images/3.png);
+  background-image: linear-gradient(rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../images/3.png);
 }
 .gallery-images .four {
   height: 306px;
   width: 603px;
   margin-bottom: 20px;
-  background-image: linear-gradient(rgba(84, 13, 110, 0.5), rgba(84, 13, 110, 0.5)), url(../images/4.png);
+  background-image: linear-gradient(rgba(84, 13, 110, 0.7), rgba(84, 13, 110, 0.7)), url(../images/4.png);
 }
 .gallery-images .five {
   width: 355px;
   height: 306px;
   margin-bottom: 20px;
-  background-image: linear-gradient(rgba(59, 206, 171, 0.5), rgba(59, 206, 171, 0.5)), url(../images/5.png);
+  background-image: linear-gradient(rgba(59, 206, 171, 0.7), rgba(59, 206, 171, 0.7)), url(../images/5.png);
 }
 
 @media screen and (max-width: 1000px) {
@@ -595,23 +603,23 @@ nav .links a {
   }
 }
 .hero-gallery-one {
-  background-image: linear-gradient(rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../images/1.png);
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/1.png);
 }
 
 .hero-gallery-two {
-  background-image: linear-gradient(rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.5)), url(../images/2.png);
+  background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url(../images/2.png);
 }
 
 .hero-gallery-three {
-  background-image: linear-gradient(rgba(8, 173, 105, 0.5), rgba(8, 173, 105, 0.5)), url(../images/3.png);
+  background-image: linear-gradient(rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../images/3.png);
 }
 
 .hero-gallery-four {
-  background-image: linear-gradient(rgba(84, 13, 110, 0.5), rgba(84, 13, 110, 0.5)), url(../images/4.png);
+  background-image: linear-gradient(rgba(84, 13, 110, 0.7), rgba(84, 13, 110, 0.7)), url(../images/4.png);
 }
 
 .hero-gallery-five {
-  background-image: linear-gradient(rgba(59, 206, 171, 0.5), rgba(59, 206, 171, 0.5)), url(../images/5.png);
+  background-image: linear-gradient(rgba(59, 206, 171, 0.7), rgba(59, 206, 171, 0.7)), url(../images/5.png);
 }
 
 .gallery-hero {
@@ -671,6 +679,10 @@ nav .links a {
 }
 .gallery-text p {
   width: 450px;
+  font-weight: lighter;
+  font-style: italic;
+  word-spacing: 5px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 1000px) {

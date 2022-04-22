@@ -1,5 +1,5 @@
 .hero-image-about {
-    background-image: linear-gradient(rgba(#FFD140, .5), rgba(#FFD140, .5)), url(../images/about-hero.png);
+    background-image: linear-gradient(rgba(#FFD140, .7), rgba(#FFD140, .7)), url(../images/about-hero.png);
     height: 379px;
     max-width: 979px;
     margin: 0 auto;
@@ -23,6 +23,8 @@
     p {
         margin-top: 36px;
         font-size: 16px;
+        font-weight: lighter;
+        font-style: italic;
     }
 }
 

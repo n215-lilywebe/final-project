@@ -1,23 +1,23 @@
 .hero-gallery-one {
-    background-image: linear-gradient(rgba(#FFD140, .5), rgba(#FFD140, .5)), url(../images/1.png);
+    background-image: linear-gradient(rgba(#FFD140, .7), rgba(#FFD140, .7)), url(../images/1.png);
 }
 
 .hero-gallery-two {
-    background-image: linear-gradient(rgba(#EE4367, .5), rgba(#EE4367, .5)), url(../images/2.png);
+    background-image: linear-gradient(rgba(#EE4367, .7), rgba(#EE4367, .7)), url(../images/2.png);
 }
 
 .hero-gallery-three {
-    background-image: linear-gradient(rgba(#08AD69, .5), rgba(#08AD69, .5)), url(../images/3.png);
+    background-image: linear-gradient(rgba(#08AD69, .7), rgba(#08AD69, .7)), url(../images/3.png);
 
 }
 
 .hero-gallery-four {
-    background-image: linear-gradient(rgba(#540D6E, .5), rgba(#540D6E, .5)), url(../images/4.png);
+    background-image: linear-gradient(rgba(#540D6E, .7), rgba(#540D6E, .7)), url(../images/4.png);
 
 }
 
 .hero-gallery-five {
-    background-image: linear-gradient(rgba(#3BCEAB, .5), rgba(#3BCEAB, .5)), url(../images/5.png);
+    background-image: linear-gradient(rgba(#3BCEAB, .7), rgba(#3BCEAB, .7)), url(../images/5.png);
 }
 
 .gallery-hero {
@@ -85,6 +85,10 @@
 
     p {
         width: 450px;
+        font-weight: lighter;
+        font-style: italic;
+        word-spacing: 5px;
+        line-height: 20px;
     }
 }
 

@@ -1,5 +1,5 @@
 .hero {
-    background-image: linear-gradient(rgba(#FFD140, .5), rgba(#FFD140, .5)), url(../images/herohome.png);
+    background-image: linear-gradient(rgba(#FFD140, .7), rgba(#FFD140, .7)), url(../images/herohome.png);
     height: 500px;
     width: 100%;
     text-align: center;
@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: -80px auto 0 auto;
+    font-weight: lighter;
 
     h1 {
         font-family: PTSR;
@@ -25,6 +26,7 @@
         color: #EE4367;
         font-size: 20px;
         margin-bottom: 50px;
+        font-style: italic;
     }
 
     .header-text {
@@ -34,6 +36,7 @@
         max-width: 714px;
         margin: 0 auto;
         margin-bottom: 50px;
+        font-style: italic;
     }
 
     .hero-button {
